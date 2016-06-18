@@ -10,8 +10,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="smart-ui-framework" />
-    <orderEntry type="module" module-name="smart-ui-framework" />
-    <orderEntry type="module" module-name="smart-ui-framework" />
     <orderEntry type="library" name="Maven: net.sourceforge.jexcelapi:jxl:2.6.12" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.16" level="project" />
     <orderEntry type="library" name="Maven: io.appium:java-client:3.4.0" level="project" />
