@@ -1,6 +1,5 @@
 package test.testcase;
 
-
 import com.qa.framework.TestCaseBase;
 import com.qa.framework.ioc.annotation.AutoInject;
 import test.datamodel.TestCaseData;

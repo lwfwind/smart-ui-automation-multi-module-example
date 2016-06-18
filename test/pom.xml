@@ -33,7 +33,7 @@
                         <executions>
                             <execution>
                                 <id>TestngXmlGenerator</id>
-                                <phase>process-resources</phase>
+                                <phase>process-test-resources</phase>
                                 <goals>
                                     <goal>java</goal>
                                 </goals>
