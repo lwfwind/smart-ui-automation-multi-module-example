@@ -2,6 +2,7 @@ package test.testnglistener;
 
 import com.qa.framework.testnglistener.ICustomTestListener;
 import org.apache.log4j.Logger;
+import org.testng.ITestContext;
 import org.testng.ITestResult;
 
 public class TestListener implements ICustomTestListener {
@@ -17,5 +18,17 @@ public class TestListener implements ICustomTestListener {
     public void onTestSuccess(ITestResult tr){
         logger.info("onCustomTestSuccess");
     }
+
+    public void onTestStart(ITestResult tr){
+        logger.info("onTestStart");
+    }
+
+    public void onStart(ITestContext testContext){
+        logger.info("onStart");
+    };
+
+    public void onFinish(ITestContext testContext){
+        logger.info("onFinish");
+    };
 
 }
