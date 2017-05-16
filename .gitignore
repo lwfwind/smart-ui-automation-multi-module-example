@@ -3,4 +3,5 @@ screenshots
 test-output
 test/target
 .idea
-target/
+smart-ui-automation-multi-module-example.iml
+test/test.iml
