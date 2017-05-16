@@ -80,6 +80,11 @@
             <artifactId>smart-ui-framework</artifactId>
             <version>3.2</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.lwfwind.automation</groupId>
+            <artifactId>smart-ui-framework</artifactId>
+            <version>3.4</version>
+        </dependency>
     </dependencies>
 
     <build>
