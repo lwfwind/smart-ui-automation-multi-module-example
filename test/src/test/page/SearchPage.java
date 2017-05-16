@@ -2,15 +2,17 @@ package test.page;
 
 import com.qa.framework.PageBase;
 import com.qa.framework.config.PropConfig;
+import com.qa.framework.config.Value;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
 public class SearchPage extends PageBase {
 
-    String url = PropConfig.getWebPath();
+    @Value("webPath")
+    private String url;
     @FindBy(id = "kw")
-    public WebElement searchTestBox;
+    private WebElement searchTestBox;
 
     public void searchFor(String text) {
         open(url);
