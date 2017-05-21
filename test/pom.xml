@@ -78,11 +78,6 @@
         <dependency>
             <groupId>com.github.lwfwind.automation</groupId>
             <artifactId>smart-ui-framework</artifactId>
-            <version>3.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.lwfwind.automation</groupId>
-            <artifactId>smart-ui-framework</artifactId>
             <version>3.4</version>
         </dependency>
     </dependencies>
@@ -104,8 +99,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>

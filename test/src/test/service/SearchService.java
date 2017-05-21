@@ -1,12 +1,13 @@
 package test.service;
 
-import com.qa.framework.ServiceBase;
 import com.qa.framework.ioc.annotation.Autowired;
+import com.qa.framework.ioc.annotation.Service;
 import test.page.SearchPage;
 
-public class SearchService extends ServiceBase {
+@Service
+public class SearchService {
     @Autowired
-    SearchPage searchPage;
+    private SearchPage searchPage;
 
     public void search(String content){
         searchPage.searchFor(content);

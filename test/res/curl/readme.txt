@@ -1,0 +1,1 @@
+curl_7_47_0_openssl_nghttp2_x86
