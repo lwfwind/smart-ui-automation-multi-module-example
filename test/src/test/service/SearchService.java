@@ -9,7 +9,7 @@ public class SearchService {
     @Autowired
     private SearchPage searchPage;
 
-    public void search(String content){
+    public void search(String content) {
         searchPage.searchFor(content);
         searchPage.verifyResult();
     }

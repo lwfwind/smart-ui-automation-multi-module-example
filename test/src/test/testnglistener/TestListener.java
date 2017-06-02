@@ -8,36 +8,41 @@ import org.testng.ITestResult;
 
 public class TestListener implements ICustomTestListener {
     private static Logger logger = Logger.getLogger(TestListener.class);
+
     public void onTestFailure(ITestResult tr) {
         logger.info("onCustomTestFailure");
     }
 
-    public void onTestSkipped(ITestResult tr){
+    public void onTestSkipped(ITestResult tr) {
         logger.info("onCustomTestSkipped");
     }
 
-    public void onTestSuccess(ITestResult tr){
+    public void onTestSuccess(ITestResult tr) {
         logger.info("onCustomTestSuccess");
     }
 
-    public void onTestStart(ITestResult tr){
+    public void onTestStart(ITestResult tr) {
         logger.info("onTestStart");
     }
 
-    public void onFinish(ISuite iSuite){
+    public void onFinish(ISuite iSuite) {
         logger.info(iSuite.getName() + " finish");
     }
 
-    public void onStart(ISuite iSuite){
+    public void onStart(ISuite iSuite) {
         logger.info(iSuite.getName() + " start");
     }
 
-    public void onStart(ITestContext testContext){
+    public void onStart(ITestContext testContext) {
         logger.info("onStart");
-    };
+    }
 
-    public void onFinish(ITestContext testContext){
+    ;
+
+    public void onFinish(ITestContext testContext) {
         logger.info("onFinish");
-    };
+    }
+
+    ;
 
 }

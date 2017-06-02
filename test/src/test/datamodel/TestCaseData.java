@@ -2,8 +2,6 @@ package test.datamodel;
 
 import org.testng.annotations.DataProvider;
 
-import java.util.Map;
-
 /**
  * Created by kcgw001 on 2016/4/29.
  */

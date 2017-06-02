@@ -1,7 +1,5 @@
 package test.page;
 
-import com.qa.framework.PageBase;
-import com.qa.framework.config.PropConfig;
 import com.qa.framework.config.Value;
 import com.qa.framework.ioc.annotation.Autowired;
 import com.qa.framework.ioc.annotation.Page;
@@ -29,7 +27,7 @@ public class SearchPage {
     }
 
     public void verifyResult() {
-        Assert.assertTrue(driver.getTitle().contains("百度搜索"),driver.getTitle());
+        Assert.assertTrue(driver.getTitle().contains("百度搜索"), driver.getTitle());
     }
 
 }
