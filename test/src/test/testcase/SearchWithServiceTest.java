@@ -1,7 +1,7 @@
 package test.testcase;
 
 import com.qa.framework.TestCaseBase;
-import com.qa.framework.ioc.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.testng.annotations.Test;
 import test.datamodel.TestCaseData;
 import test.service.SearchService;
